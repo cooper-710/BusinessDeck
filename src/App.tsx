@@ -1,11 +1,5 @@
 import React from 'react';
 import logo from 'figma:asset/19114907a831d93c7621eb538ee3c314967d586b.png';
-import MLB from '/MLB.jpg';
-import NBA from '/NBA.jpg';
-import NFL from '/NFL.jpg';
-import NHL from '/NHL.jpg';
-import PGA from '/PGA.jpg';
-import FIFA from '/Fifa2.png';
 
 export default function App() {
   return (
@@ -384,22 +378,22 @@ export default function App() {
           {/* Image placeholders row */}
           <div className="grid grid-cols-6 gap-4 mb-20">
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={MLB} alt="MLB" className="h-full w-full object-contain" />
+              <img src="/MLB.jpg" alt="MLB" className="h-full w-full object-contain" />
             </div>
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={NBA} alt="NBA" className="h-full w-full object-contain" />
+              <img src="/NBA.jpg" alt="NBA" className="h-full w-full object-contain" />
             </div>
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={NFL} alt="NFL" className="h-full w-full object-contain" />
+              <img src="/NFL.jpg" alt="NFL" className="h-full w-full object-contain" />
             </div>
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={NHL} alt="NHL" className="h-full w-full object-contain" />
+              <img src="/NHL.jpg" alt="NHL" className="h-full w-full object-contain" />
             </div>
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={PGA} alt="PGA" className="h-full w-full object-contain" />
+              <img src="/PGA.jpg" alt="PGA" className="h-full w-full object-contain" />
             </div>
             <div className="h-32 bg-white flex items-center justify-center">
-              <img src={FIFA} alt="FIFA" className="h-full w-full object-contain" />
+              <img src="/Fifa2.png" alt="FIFA" className="h-full w-full object-contain" />
             </div>
           </div>
           
